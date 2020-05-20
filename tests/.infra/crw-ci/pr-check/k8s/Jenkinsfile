@@ -235,6 +235,7 @@ EOL"""
                         --k8spodreadytimeout=180000 \\
                         --listr-renderer=verbose \\
                         --platform=minikube \\
+                        --installer=operator \\
                         --che-operator-cr-patch-yaml=$CUSTOM_RESOURCE_PATCH_FILE
                     """
 
